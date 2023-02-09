@@ -1,0 +1,43 @@
+.header {
+    background: rgb(22, 22, 22);
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 5rem;
+}
+
+.content {
+    margin: auto;
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+
+    &:hover {
+        color: rgb(208, 157, 255);
+    }
+}
+
+.links {
+    a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        background-color: rgb(23, 217, 204);
+        padding: 0.5rem;
+        border-radius: 10px;
+        transition: all 0.3s ease;
+
+        &:hover {
+            background-color: darken($color: rgb(23, 217, 204), $amount: 10%);
+        }
+    }
+}

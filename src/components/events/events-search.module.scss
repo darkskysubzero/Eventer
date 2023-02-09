@@ -1,0 +1,22 @@
+.search {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+
+    div {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        gap: 1rem;
+        align-items: center;
+
+        div select {
+            flex: 1;
+            padding: 0.5rem;
+            border-radius: 10px;
+        }
+    }
+}
